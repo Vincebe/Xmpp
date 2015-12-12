@@ -1,5 +1,5 @@
 {
-    "name": "kadet/xmpp",
+    "name": "vincebe/xmpp",
     "type": "library",
     "description": "Asynchronous, Non-Blocking, Event Driven Xmpp Library, which utilizes php 5.4 features.",
     "keywords": ["jabber","xmpp","muc","asynchronous","non-blocking"],
@@ -15,8 +15,8 @@
     ],
     "require": {
         "php": ">=5.4.0",
-        "kadet/utils": "dev-master",
-        "kadet/socket-lib": "dev-master"
+        "kadet/utils": "*",
+        "kadet/socket-lib": "*"
     },
     "autoload": {
         "psr-4": {
